@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/*Nagyfelbontasu monitorok*/
+@media only screen and (min-width: 1279px) {
+    body {background-color:#F4F4F4; margin: 0%;}
+    .header {width: 100%; height: 150px; flex-shrink: 0;}
+    a {text-decoration:none;}
+    .srpski {color: #888787;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        text-decoration :none;
+        line-height: 18px; /* 128.571% */ position: relative; left: 71%; top: 0px;}
+    .langs {color: #595959;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 128.571% */
+        text-decoration-line: underline; position: relative; left: 72%; top: 0px;}
+    .langs2 {color: #595959;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 128.571% */
+        text-decoration-line: underline; position: relative; left: 73%; top: 0px;}
+    .sheader {width: 100%;
+        height: 75px;
+        flex-shrink: 0; background: #D9D9D9;}
+    .logo {height: 45px; width: 220px; position: relative; left: 8%; top: 15px;}
+    .pcmenum1 {color: #000;
+        position:relative;
+        right:-35%; top:15px;
+        font-family: 'Roboto Condensed';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */}
+    .pcmenus1 {color: #474747;
+        position:relative;right: -34%; top: 15px;
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */}
+    .tbutton1 {border-color:#000; background:#F4F4F4; border-left-style:solid;
+         border-right-style:solid; border-width: 1px; width: 12%; height: 75px;  position:relative;
+          top: 0px; left: 8%; align-items:center;}
+    .pcmenum2 {color: #000;
+        position:relative;
+        right:-22%; top:15px;
+        font-family: 'Roboto Condensed';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */}
+    .pcmenus2 {color: #474747;
+        position:relative;right: -34%; top: 15px;
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */}
+    .tbutton2 {border-color:#000; background:#F4F4F4; border-left-style:solid;
+         border-right-style:solid; border-width: 1px; width: 12%; height: 75px;  position:relative;
+          top: -75px; left: 20%; align-items:center;}
+    .pcmenum3 {color: #000;
+        position:relative;
+        right:-22%; top:15px;
+        font-family: 'Roboto Condensed';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */}
+    .pcmenus3 {color: #474747;
+        position:relative;right: -34%; top: 15px;
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */}
+    .tbutton3 {border-color:#000; background:#F4F4F4; border-left-style:solid;
+         border-right-style:solid; border-width: 1px; width: 12%; height: 75px;  position:relative;
+          top: -150px; left: 32%; align-items:center;}
+    .pcmenum4 {color: #000;
+            position:relative;
+            right:-22%; top:15px;
+            font-family: 'Roboto Condensed';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 162.5% */}
+        .pcmenus4 {color: #474747;
+            position:relative;right: -34%; top: 15px;
+            font-family: 'Roboto';
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 14px; /* 116.667% */}
+        .tbutton4 {border-color:#000; background:#F4F4F4; border-left-style:solid;
+             border-right-style:solid; border-width: 1px; width: 12%; height: 75px;  position:relative;
+              top: -225px; left: 44%; align-items:center;}
+    .pcmenum5 {color: #000;
+        position:relative;
+        right:-22%; top:15px;
+        font-family: 'Roboto Condensed';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */}
+    .pcmenus5 {color: #474747;
+        position:relative;right: -34%; top: 15px;
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */}
+    .tbutton5 {border-color:#000; background:#F4F4F4; border-left-style:solid;
+         border-right-style:solid; border-width: 1px; width: 12%; height: 75px;  position:relative;
+          top: -300px; left: 56%; align-items:center;}
+.pcmenum6 {color: #000;
+        position:relative;
+        right:-22%; top:15px;
+        font-family: 'Roboto Condensed';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */}
+    .pcmenus6 {color: #474747;
+        position:relative;right: -34%; top: 15px;
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */}
+    .tbutton6 {border-color:#000; background:#F4F4F4; border-left-style:solid;
+         border-right-style:solid; border-width: 1px; width: 12%; height: 75px;  position:relative;
+          top: -375px; left: 68%; align-items:center;}
+.pcmenum7 {color: #000;
+        position:relative;
+        right:-22%; top:15px;
+        font-family: 'Roboto Condensed';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */}
+    .pcmenus7 {color: #474747;
+        position:relative;right: -34%; top: 15px;
+        font-family: 'Roboto';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px; /* 116.667% */}
+    .tbutton7 {border-color:#000; background:#F4F4F4; border-left-style:solid;
+         border-right-style:solid; border-width: 1px; width: 12%; height: 75px;  position:relative;
+          top: -450px; left: 80%; align-items:center;}
+    }
+    /*Tabletok es kisebb laptopok*/
+@media only screen and (min-width: 721px) and (max-width: 1279px) {}
