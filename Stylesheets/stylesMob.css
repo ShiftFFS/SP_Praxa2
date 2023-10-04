@@ -3,52 +3,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-html, body {
-    width: 100%;
-    margin: 0; 
-    padding: 0; 
-    overflow-x: hidden;
-  }
-  body {background:#F4F4F4; background-position: center; margin: 0%; width: 100%; padding: 0%;}
-  .header {background: #F4F4F4; width: 100%; height: 150px; flex-shrink: 0;}
-  .sheader {width: 100%;
-      height: 75px;
-      flex-shrink: 0; background: #D9D9D9;}
-  a {text-decoration:none;}
- .bg {position: fixed; width: 100%; z-index:-1;}
- .logo {height: 45px; width: 220px; position: relative; left: 8%; top: 15px;}
 
- @media only screen and (max-width: 900px) {
-    .block1 {background: #F4F4F4; width: 100%; height: 900px; position: static; top: 0px; display: grid;
-        grid-template-columns: 1fr 1fr;}
-    .img1 {position: relative; top: 20px; width: 100%; grid-column:1/2;}
-    .dvgh1 {position: relative; 
+ @media only screen and (min-width: 320px) and (max-width: 1027px){
+    .bg {position: fixed; width: 480%; height: 100%; z-index: -1;}
+    
+    .block1 {background: #F4F4F4; width: 100%; height: 1500px; flex-shrink: 0; position: static; top: 0px;}
+    .img1 {position: relative; top: 800px; width: 90%; left: 5%}
+    .dvgh1 {position: relative;
+        left: 35%;
+        top: -35%; 
         color: #303030;
         font-family: 'Roboto';
-        font-size: 36px;
+        font-size: 42px;
         font-style: normal;
         font-weight: 700;
-        line-height: 34px; /* 80.952% */
-        grid-column:1/ span 2;}
+        line-height: 34px; /* 80.952% */}
     .dvgh2 {position: relative;
+        left: 10%;
+        top: -32%;
         color: #474747;
         font-family: 'Inter';
-        font-size: 24px;
+        font-size: 38px;
+        text-align:center;
         font-style: normal;
         font-weight: 400;
         line-height: 34px; /* 121.429% */ width: 80%;
-        grid-column:2/ span 2;}
+        grid-column:2/2;}
     .dvgp {position: relative;
+        left: 5%;
+        top: -30%;
+        text-align:center;
         color: #474747;
         font-family: Roboto;
-        font-size: 12px;
+        font-size: 27px;
         font-style: normal;
         font-weight: 400;
-        line-height: 160%; /* 22.4px */ width: 80%;
-        grid-column:1/ span 2;}
-    .rbutton {display: inline-flex;
+        line-height: 160%; /* 22.4px */ width: 90%;} 
+           .rbutton {display: inline-flex;
         position:relative;
-        height: 48px;
+        height: 36px;
         padding: 0px 16px;
         justify-content: center;
         align-items: center;
@@ -57,25 +50,199 @@ html, body {
         background: var(--Primary, #BF0F0F);
         color: var(--Surface, #FFF);
         font-family: Roboto;
-        font-size: 16px;
+        font-size: 11px;
         font-style: normal;
         font-weight: 500;
-        line-height: 18px; /* 112.5% */
-        grid-column:2/2; width: 30%; left: 10%; top: -710%;}
-        .h1psuedo {position: relative; background:#BF0F0F; grid-column:2/2; height: 8px; width: 20%; left: 10%; top: -7500%; }
-.ppsuedo {position: relative; background:#D9D9D9; grid-column:2/2; height: 5px; width: 80%; left: 10%; top: -9000%;}
-.tpsq {position:relative; top:0px; background:#000; opacity:.3; width: 100%; height: 600px;}
+        line-height: 18px; /* 112.5% */ width: 30%; left: 10%; top: -590%;}
+        .h1psuedo {position: relative; background:#BF0F0F; height: 8px; width: 15%; left: 42%; top: -42%; }
+    .ppsuedo {position: relative; background:#D9D9D9; height: 6px; width: 80%; left: 10%; top: -31%;}
+    .tpsq {position:relative; top:0px; background:#000; opacity:.5; width: 100%; height: 400px;}
         .dist {color: #FFF;
         text-align: center;
         position:relative;
         opacity: 1;
-        top: -35%;
+        top: -12%;
         font-family: Roboto;
-        font-size: 32px;
+        font-size: 36px;
         font-style: normal;
         font-weight: 700;
         line-height: 34px; /* 106.25% */
         letter-spacing: 10.4px;}
+        
+        
+        .distpsuedo { position:relative; background:#BF0F0F; height: 12px; width: 20%; left:40%; top: -12%; }
+        .block2 {position: relative; top: 0px; background: #F4F4F4; width: 100%; height: 2600px; flex-shrink: 0; position: relative; top: -110px; padding: 0%;}
+            .l1psuedo {position: relative; background:#D9D9D9; height: 6px; width: 95%; left: 2.5%; top: 32%;}
+            .imgl1 {position: absolute; top: 2%; width: 95%; left: 2.5%;}
+            .dvgl1 {position: absolute; text-transform:uppercase;
+                left: 19%;
+                top: 29%; color:#000; 
+                text-align:center;
+                font-family: Roboto;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;}
+            .l2psuedo {position: relative; background:#D9D9D9; height: 6px; width: 95%; left: 2.5%; top: 64%;}
+            .imgl2 {position: absolute; top: 34%; width: 95%; left: 2.5%;}
+            .dvgl2 {position: absolute; text-transform:uppercase;
+                left: 30%;
+                top: 61%; color:#000; 
+                text-align:center;
+                font-family: Roboto;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;}
+            .l3psuedo {position: relative; background:#D9D9D9; height: 6px; width: 95%; left: 2.5%; top: 96%;}
+            .imgl3 {position: absolute; top: 66%; width: 95%; left: 2.5%;}
+            .dvgl3 {position: absolute; text-transform:uppercase;
+                left: 30%;
+                top: 93%; color:#000; 
+                text-align:center;
+                font-family: Roboto;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: left;}
+            .data {position: relative; width:100%; top:-110px;}
+            .dvgh12 {position: absolute;
+                left: 116%;
+                top: 65%; 
+                color: #303030;
+                width: 70%;
+                font-family: 'Roboto';
+                font-size: 34px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 34px; /* 80.952% */
+                grid-column:2/3;}
+            .dvgh22 {position: absolute;
+                left: 136%;
+                top: 73%;
+                color: #474747;
+                font-family: 'Inter';
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 34px; /* 121.429% */ width: 70%;
+                grid-column:2/3;}
+            .l3psuedo2 {position: absolute; background:#BF0F0F; height: 6px; width: 10.5%; left: 45.5%; top: 84%; }
+            .pboard {position: relative; background:#F4F4F4; width: 100%; height: 2800px; top:-115px;}
+            .dvgh23 {position: absolute;
+                left: 16%;
+                top: 7%;
+                color: #474747;
+                font-family: 'Inter';
+                font-size: 24px;
+                font-style: normal;
+                text-align: center;
+                font-weight: 400;
+                line-height: 34px; /* 121.429% */ width: 70%;}
+            .ppsuedo2 {position: absolute; background:#D9D9D9; height: 5px; width: 35%; left: 33%; top: 24%; }
+            .ppsuedo3 {position: absolute; background:#D9D9D9; height: 5px; width: 35%; left: 33%; top: 32%; }
+            .dvgp2 {position: absolute;
+                left: 33%;
+                top: 29%;
+                color: #474747;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                text-align: center;
+                font-weight: 400;
+                line-height: 160%; /* 22.4px */ width: 35%;}
+            .pmenu {position: absolute;; background:#F4F4F4; width: 90%; height: 2600px; top: 1%; left: 5%; }
+            .pmb1 {position: relative; width: 100%; left: 1.25%; }
+            .pmi1 {position: relative; width: 45%; left: 1.25%;}
+            .pmb2 {position: relative; width: 100%; top:-28.2%; left: 26.25%;}
+            .pmi2 {position: relative; width: 45%; top:-28.2%; left: 26.25%;}
+            .pmb3 {position: relative; width: 100%; left: 1.25%; top:-24.5%;}
+            .pmi3 {position: relative; width: 45%; left: 1.25%; top:-24.5%;}
+            .pmb4 {position: relative; width: 100%;  left: 26.25%; top: -49.9%;}
+            .pmi4 {position: relative; width: 45%; left: 26.25%; top:-49.90%;}
+            .pmb5 {position: relative; width: 100%;  left: 0%; top: -49.9%;}
+            .pmi5 {position: relative; width: 95%; left: 2.5%; top: -49.9%;}
+            .pmt {position: relative; text-transform:uppercase;
+                left: 50px;
+                top: -110px; 
+                font-family: Roboto;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: px;
+                letter-spacing: 0em;
+                text-align: left;}
+            .pmt2 {position: relative; text-transform:uppercase;
+                left: 290px;
+                top: -110px; 
+                font-family: Roboto;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: px;
+                letter-spacing: 0em;
+                text-align: left;}
+            .pmt3 {position: relative; text-transform:uppercase;
+                left: 80px;
+                top: -110px; 
+                font-family: Roboto;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: px;
+                letter-spacing: 0em;
+                text-align: left;}
+            .pmt4 {position: relative; text-transform:uppercase;
+                left: 110px;
+                top: -110px; 
+                font-family: Roboto;
+                font-size: 50px;
+                font-weight: 400;
+                line-height: px;
+                letter-spacing: 0em;
+                text-align: left;}
+            .pmt5 {position: relative; text-transform:uppercase;
+                left: 10%;
+                top: -500px; 
+                font-family: Roboto;
+                font-size: 130px;
+                text-align: center;
+                font-weight: 400;
+                line-height: px;
+                letter-spacing: 0em;
+                text-align: left;}
+            .pmps1 {position: relative; background:#BF0F0F; height: 4px; width: 25%; left: 15px; top: -130px; opacity: 0;}
+            .pmps2 {position: relative; background:#BF0F0F; height: 4px; width: 25%; left: 40px; top: -130px; opacity: 0;}
+            .pmps3 {position: relative; background:#BF0F0F; height: 4px; width: 25%; left: 80px; top: -130px; opacity: 0;}
+            .pmps4 {position: relative; background:#BF0F0F; height: 4px; width: 25%; left: 110px; top: -130px; opacity: 0;}
+            .pmps5 {position: relative; background:#BF0F0F; height: 4px; width: 25%; left: 15px; top: -130px; opacity: 0;}
+
+        .cboard {position: relative; background:#ffffff; width: 100%; height: 700px; top:-255px;}
+        .logo2 {width: 10%; position: absolute; left: 10px; top: -11%;}
+        .cmenu {position: relative; background:#ffffff; width: 70%; height: 160px; top: 40%; left: 6%;}
+            .cmi1 {position: relative; height: 100%; left: 1%;}
+            .cmi2 {position: relative; height: 100%; left: 6.5%;}
+            .cmi3 {position: relative; height: 100%; left: 12%;}
+            .cmi4 {position: relative; height: 100%; left: 17.5%;}
+            .cmi5 {position: relative; height: 100%; left: 23%;}
+            .cmi6 {position: relative; height: 100%; left: 28.5%;}
+            .rbutton2 {display: inline-flex;
+                position:relative;
+                height: 48px;
+                padding: 0px 16px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                flex-shrink: 0;border-radius: 4px;
+                background: var(--Primary, #BF0F0F);
+                color: var(--Surface, #FFF);
+                font-family: Roboto;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px; /* 112.5% */ width: 28%; height: 6%; left: 37%; top: -51%;}
+    
+                .footerdiv {position:relative; width: 100%; top: -800px; height: 50%; background:#303030;}
+        
+
 }
-
-
