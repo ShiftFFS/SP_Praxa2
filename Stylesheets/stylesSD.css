@@ -395,7 +395,7 @@
                 font-weight: 500;
                 line-height: 18px; /* 112.5% */ width: 23%; height: 6%; left: 39%; top: -51%;}
     
-                .footerdiv {position:absolute; width: 100%; top: 770%;}
+                .footerdiv {position:absolute; width: 100%; top: 4630px;}
                 .footerpc {position:relative; width: 100%; height: 460px; top:0%;}
                     .vertline1 {position: absolute; background:#888787; height: 230px; width: 2px; left: 25%; top: 20%; }
                     .vertline2 {position: absolute; background:#888787; height: 230px; width: 2px; left: 57%; top: 20%; }
@@ -599,8 +599,8 @@
                     position: absolute;
                     opacity: 1;
                     top: 14%;
-                    left: 68%;
-                    width: 30%;
+                    left: 77%;
+                    width: 20%;
                     font-family: Roboto;
                     font-size: 14px;
                     font-weight: 400;

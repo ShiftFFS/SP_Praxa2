@@ -1,22 +1,29 @@
-let currentSlide = 0;
-let slides = document.getElementsByClassName("slide");
-let breadcrumbs = document.getElementsByClassName("slider__navlink");
-document.getElementById("next").addEventListener("click", () => {
-    changeSlide(currentSlide + 1)
-});
-document.getElementById("prev").addEventListener("click", () => {
-    changeSlide(currentSlide - 1)
-});
+let slideIndex = 1;
+showSlides(slideIndex);
 
-function changeSlide(numSlide) {
-    if (numSlide >= slides.length) {numSlide = 0;}
-    if (numSlide < 0) {numSlide = slides.length - 1;}
-    
-    slides[currentSlide].classList.toggle("active");
-    breadcrumbs[currentSlide].classList.toggle("active");
-    slides[numSlide].classList.toggle("active");
-    breadcrumbs[numSlide].classList.toggle("active");
-    
-    currentSlide = numSlide;
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
-//Segitseg
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  var handle = setTimeout(showSlides, 2000);
+}
