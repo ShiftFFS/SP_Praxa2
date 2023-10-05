@@ -308,7 +308,7 @@
                 text-align: center;
                 font-weight: 400;
                 line-height: 160%; /* 22.4px */ width: 35%;}
-            .pmenu {position: absolute;; background:#F4F4F4; width: 80%; height: 300px; top: 45%; left: 10%;}
+            .pmenu {position: relative; background:#F4F4F4; width: 80%; height: 300px; top: 50%; left: 10%;}
             .pmb1 {position: relative; height: 100%; width: 19%;}
             .pmi1 {position: relative; height: 100%; left: 0%;}
             .pmb2 {position: relative; height: 100%; top:-100%; left: 17.25%; width: 19%;}
