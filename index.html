@@ -9,13 +9,36 @@
         <link rel="stylesheet" href="Stylesheets/stylesGlobal.css"/>
         <link rel="stylesheet" href="Stylesheets/stylesLap.css"/>
         <link rel="stylesheet" href="Stylesheets/styles4K.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="slideshow.js"></script>
-        <script src="slideshow2.js"></script>
+        <script src="hamburger.js"></script>
     </head>
     <body>
     <img class="bg" src="Images/fleet.jpg">
         <div class="header">
             <div class="sheader">
+                <div class="topnav">
+                    <a href="#home" class="active">Meni</a>
+                    <!-- Navigation links (hidden by default) -->
+                    <div id="myLinks">
+                      <a href="">O NAMA</a>
+                      <a href="">DVG PROIZVODI</a>
+                      <a href="">BRENDOVI</a>
+                      <a href="">DISTRIBUCIJA</a>
+                      <a href="">SARADNJA</a>
+                      <a href="">NOVOSTI</a>
+                      <a href="">KONTAKT</a>
+                      <p style="font-size: 36px; font-weight: 700;">Jezici:</p>
+                      <a href="">Srpski</a>
+                      <a href="">English</a>
+                      <a href="">Magyar</a>
+                    </div>
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                  </div>
+        
                 <img class="logo" src="Images/dvglogo1.png">
                 <a href=""><span class="srpski">Srpski</span></a></a href=""><span class="langs">English</span></a><a href=""><span class="langs2">Magyar</span></a>
             </div>
@@ -41,7 +64,7 @@
                 <a href=""><span class="pcmenum7">KONTAKT</span><br><span class="pcmenus7">kontaktirajte nas</span></a> 
             </div>
         </div>
-
+        
 <!-- Slideshow container -->
 <div class="slideshow-container">
 

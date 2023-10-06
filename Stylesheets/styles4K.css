@@ -25,7 +25,7 @@
           font-weight: 400;
           line-height: 18px; /* 128.571% */
           text-decoration-line: underline; position: relative; left: 82%; top: 0px;}
-    .block1 {position: relative; top: 0px; background: #F4F4F4; width: 100%; height:1400px; flex-shrink: 0; position: relative; top: 0px; display: grid; padding: 0%;
+    .block1 {position: relative; top: 0px; background: #F4F4F4; width: 100%; height:1500px; flex-shrink: 0; position: relative; top: 0px; display: grid; padding: 0%;
         grid-template-columns: 1fr 1fr;}
 
 .h1psuedo {position: relative; background:#BF0F0F; grid-column:2/2; height: 8px; width: 20%; left: 10%; top: -14000%; }
@@ -61,7 +61,7 @@
         font-weight: 400;
         line-height: 160%; /* 22.4px */ width: 70%;
         grid-column:2/2;}
-    /*optimizald kisebb kepernyokra*/.rbutton {display: inline-flex;
+        .rbutton {display: inline-flex;
         position:relative;
         height: 110px;
         padding: 0px 16px;
@@ -72,7 +72,7 @@
         background: var(--Primary, #BF0F0F);
         color: var(--Surface, #FFF);
         font-family: Roboto;
-        font-size: 16px;
+        font-size: 32px;
         font-style: normal;
         font-weight: 500;
         line-height: 18px; /* 112.5% */
@@ -80,16 +80,16 @@
 
         .pcmenum1 {color: #000;
             position:relative;
-            right:-36%; top:15px;
+            right:-38%; top:15px;
             font-family: 'Roboto Condensed';
-            font-size: 16px;
+            font-size: 26px;
             font-style: normal;
             font-weight: 400;
             line-height: 26px; /* 162.5% */}
         .pcmenus1 {color: #474747;
-            position:relative;right: -31%; top: 15px;
+            position:relative;right: -34%; top: 15px;
             font-family: 'Roboto';
-            font-size: 12px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 400;
             line-height: 14px; /* 116.667% */}
@@ -98,16 +98,16 @@
               top: 0px; left: 8%; align-items:center;}
         .pcmenum2 {color: #000;
             position:relative;
-            right:-27%; top:15px;
+            right:-33%; top:15px;
             font-family: 'Roboto Condensed';
-            font-size: 16px;
+            font-size: 24px;
             font-style: normal;
             font-weight: 400;
             line-height: 26px; /* 162.5% */}
         .pcmenus2 {color: #474747;
-            position:relative;right: -33%; top: 15px;
+            position:relative;right: -36%; top: 15px;
             font-family: 'Roboto';
-            font-size: 12px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 400;
             line-height: 14px; /* 116.667% */}
@@ -116,16 +116,16 @@
               top: -75px; left: 20%; align-items:center;}
         .pcmenum3 {color: #000;
             position:relative;
-            right:-34%; top:15px;
+            right:-37%; top:15px;
             font-family: 'Roboto Condensed';
-            font-size: 16px;
+            font-size: 24px;
             font-style: normal;
             font-weight: 400;
             line-height: 26px; /* 162.5% */}
         .pcmenus3 {color: #474747;
-            position:relative;right: -31%; top: 15px;
+            position:relative;right: -33%; top: 15px;
             font-family: 'Roboto';
-            font-size: 12px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 400;
             line-height: 14px; /* 116.667% */}
@@ -134,16 +134,16 @@
               top: -150px; left: 32%; align-items:center;}
         .pcmenum4 {color: #000;
                 position:relative;
-                right:-29%; top:15px;
+                right:-35%; top:15px;
                 font-family: 'Roboto Condensed';
-                font-size: 16px;
+                font-size: 24px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 26px; /* 162.5% */}
             .pcmenus4 {color: #474747;
-                position:relative;right: -26%; top: 15px;
+                position:relative;right: -31%; top: 15px;
                 font-family: 'Roboto';
-                font-size: 12px;
+                font-size: 20px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 14px; /* 116.667% */}
@@ -152,16 +152,16 @@
                   top: -225px; left: 44%; align-items:center;}
         .pcmenum5 {color: #000;
             position:relative;
-            right:-34%; top:15px;
+            right:-36%; top:15px;
             font-family: 'Roboto Condensed';
-            font-size: 16px;
+            font-size: 24px;
             font-style: normal;
             font-weight: 400;
             line-height: 26px; /* 162.5% */}
         .pcmenus5 {color: #474747;
-            position:relative;right: -29%; top: 15px;
+            position:relative;right: -31%; top: 15px;
             font-family: 'Roboto';
-            font-size: 12px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 400;
             line-height: 14px; /* 116.667% */}
@@ -170,16 +170,16 @@
               top: -300px; left: 56%; align-items:center;}
     .pcmenum6 {color: #000;
             position:relative;
-            right:-35%; top:15px;
+            right:-38%; top:15px;
             font-family: 'Roboto Condensed';
-            font-size: 16px;
+            font-size: 24px;
             font-style: normal;
             font-weight: 400;
             line-height: 26px; /* 162.5% */}
         .pcmenus6 {color: #474747;
-            position:relative;right: -35%; top: 15px;
+            position:relative;right: -37%; top: 15px;
             font-family: 'Roboto';
-            font-size: 12px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 400;
             line-height: 14px; /* 116.667% */}
@@ -188,16 +188,16 @@
               top: -375px; left: 68%; align-items:center;}
     .pcmenum7 {color: #000;
             position:relative;
-            right:-35%; top:15px;
+            right:-38%; top:15px;
             font-family: 'Roboto Condensed';
-            font-size: 16px;
+            font-size: 24px;
             font-style: normal;
             font-weight: 400;
             line-height: 26px; /* 162.5% */}
         .pcmenus7 {color: #474747;
-            position:relative;right: -29%; top: 15px;
+            position:relative;right: -32%; top: 15px;
             font-family: 'Roboto';
-            font-size: 12px;
+            font-size: 20px;
             font-style: normal;
             font-weight: 400;
             line-height: 14px; /* 116.667% */}
@@ -216,40 +216,40 @@
         letter-spacing: 10.4px;}
 
         .distpsuedo { position:relative; background:#BF0F0F; height: 8px; width: 10%; left:45%; top: -35%; }
-        .block2 {position: relative; top: 0px; background: #F4F4F4; width: 100%; height: 1300px; flex-shrink: 0; position: relative; top: -180px; display: grid; padding: 0%;
+        .block2 {position: relative; top: 0px; background: #F4F4F4; width: 100%; height: 1800px; flex-shrink: 0; position: relative; top: -180px; display: grid; padding: 0%;
             grid-template-columns: 40px 1fr 1fr 1fr 40px;}
-            .l1psuedo {position: absolute; background:#BF0F0F; grid-column:1/3; height: 4px; width: 15%; left: 15%; top: 52%; }
-            .imgl1 {position: absolute; top: 10%; width: 85%; grid-column:1/3; left: 15%;}
+            .l1psuedo {position: absolute; background:#BF0F0F; grid-column:1/3; height: 4px; width: 15%; left: 12%; top: 62%; }
+            .imgl1 {position: absolute; top: 10%; width: 87.5%; grid-column:1/3; left: 12%;}
             .dvgl1 {position: absolute; text-transform:uppercase;
-                left: 15%;
-                top: 48%; color:#000; 
+                left: 12%;
+                top: 58%; color:#000; 
                 font-family: Roboto;
-                font-size: 30px;
+                font-size: 64px;
                 font-weight: 400;
                 line-height: 22px;
                 letter-spacing: 0em;
                 text-align: left;                
                 grid-column:1/3;}
-            .l2psuedo {position: absolute; background:#BF0F0F; grid-column:2/3; height: 4px; width: 15%; left: 105%; top: 52%; }
+            .l2psuedo {position: absolute; background:#BF0F0F; grid-column:2/3; height: 4px; width: 15%; left: 105%; top: 62%; }
             .imgl2 {position: absolute; top: 10%; width: 90%; grid-column:2/3; left: 105%;}
             .dvgl2 {position: absolute; text-transform:uppercase;
                 left: 105%;
-                top: 48%;
+                top: 58%;
                 width: 80%; color:#000; 
                 font-family: Roboto;
-                font-size: 30px;
+                font-size: 64px;
                 font-weight: 400;
                 line-height: 22px;
                 letter-spacing: 0em;
                 text-align: left;
                 grid-column:2/3;}
-            .l3psuedo {position: absolute; background:#BF0F0F; grid-column:3/3; height: 4px; width: 15%; left: 100%; top: 52%; }
+            .l3psuedo {position: absolute; background:#BF0F0F; grid-column:3/3; height: 4px; width: 15%; left: 100%; top: 62%; }
             .imgl3 {position: absolute; top: 10%; width: 90%; grid-column:3/3; left: 100%;}
             .dvgl3 {position: absolute; text-transform:uppercase;
                 left: 100%;
-                top: 48%; 
+                top: 58%; 
                 font-family: Roboto;
-                font-size: 30px; color:#000; 
+                font-size: 64px; color:#000; 
                 width: 80%;
                 font-weight: 400;
                 line-height: 22px;
@@ -259,26 +259,27 @@
             .data {position: relative; width:100%; top:-180px;}
             .dvgh12 {position: absolute;
                 left: 121%;
-                top: 65%; 
+                top: 64%; 
                 color: #303030;
                 width: 60%;
                 font-family: 'Roboto';
-                font-size: 54px;
+                width: 100%;
+                font-size: 120px;
                 font-style: normal;
                 font-weight: 700;
                 line-height: 34px; /* 80.952% */
                 grid-column:2/3;}
             .dvgh22 {position: absolute;
-                left: 134%;
+                left: 138%;
                 top: 73%;
                 color: #474747;
                 font-family: 'Inter';
-                font-size: 34px;
+                font-size: 68px;
                 font-style: normal;
                 font-weight: 400;
                 line-height: 34px; /* 121.429% */ width: 70%;
                 grid-column:2/3;}
-            .l3psuedo2 {position: absolute; background:#BF0F0F; height: 10px; width: 9%; left: 45%; top: 84%; }
+            .l3psuedo2 {position: absolute; background:#BF0F0F; height: 10px; width: 9%; left: 46.5%; top: 84%; }
             .pboard {position: relative; background:#F4F4F4; width: 100%; height: 1600px; top:-195px;}
             .dvgh23 {position: absolute;
                 left: 16%;
@@ -294,7 +295,7 @@
             .ppsuedo3 {position: absolute; background:#D9D9D9; height: 5px; width: 35%; left: 33%; top: 24%; }
             .dvgp2 {position: absolute;
                 left: 15%;
-                top: 29%;
+                top: 27%;
                 color: #474747;
                 font-family: Roboto;
                 font-size: 42px;
@@ -365,7 +366,7 @@
             .pmps5 {position: relative; background:#BF0F0F; height: 4px; width: 25%; left: 20px; top: -300px; }
 
         .cboard {position: relative; background:#ffffff; width: 100%; height: 1400px; top:-195px;}
-        .logo2 {width: 10%; position: absolute; left: 10px; top: -30%;}
+        .logo2 {width: 10%; position: absolute; left: 10px; top: -20%;}
         .cmenu {position: relative; background:#ffffff; width: 70%; height: 520px; top: 35%; left: 10%;}
             .cmi1 {position: relative; height: 100%; left: 1%;}
             .cmi2 {position: relative; height: 100%; left: 6.5%;}
@@ -389,7 +390,7 @@
                 font-weight: 500;
                 line-height: 18px; /* 112.5% */ width: 17%; height: 6%; left: 42.5%; top: -21%;}
     
-                .footerdiv {position:absolute; width: 100%; top:453%;}
+                .footerdiv {position:absolute; width: 100%; top: 10550px;}
                 .footerpc {position:relative; width: 100%; height: 520px; top:0%;}
                     .vertline1 {position: absolute; background:#888787; height: 250px; width: 2px; left: 25%; top: 20%; }
                     .vertline2 {position: absolute; background:#888787; height: 250px; width: 2px; left: 57%; top: 20%; }
@@ -593,8 +594,8 @@
                     position: absolute;
                     opacity: 1;
                     top: 20%;
-                    left: 73%;
-                    width: 20%;
+                    left: 90%;
+                    width: 8%;
                     font-family: Roboto;
                     font-size: 20px;
                     font-weight: 400;
