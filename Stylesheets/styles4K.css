@@ -384,12 +384,12 @@
                 background: var(--Primary, #BF0F0F);
                 color: var(--Surface, #FFF);
                 font-family: Roboto;
-                font-size: 18px;
+                font-size: 36px;
                 font-style: normal;
                 font-weight: 500;
                 line-height: 18px; /* 112.5% */ width: 17%; height: 6%; left: 42.5%; top: -21%;}
     
-                .footerdiv {position:absolute; width: 100%; top:370%;}
+                .footerdiv {position:absolute; width: 100%; top:453%;}
                 .footerpc {position:relative; width: 100%; height: 520px; top:0%;}
                     .vertline1 {position: absolute; background:#888787; height: 250px; width: 2px; left: 25%; top: 20%; }
                     .vertline2 {position: absolute; background:#888787; height: 250px; width: 2px; left: 57%; top: 20%; }
